@@ -1,0 +1,13 @@
+.hero-section {
+  height: 400px;
+  background-image: url('/assets/voitures.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.search-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+

@@ -1,0 +1,19 @@
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">Available Cars</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <div class="col" *ngFor="let car of cars">
+        <div class="card h-100 shadow">
+          <img [src]="car.image" class="card-img-top" [alt]="car.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ car.marque }}</h5>
+            <p class="card-text">{{ car.modele }}</p>
+            <p class="fw-bold text-danger">{{ car.prix_par_jour }} TND / day</p>
+            <a href="#" class="btn btn-outline-danger">Rent Now</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  

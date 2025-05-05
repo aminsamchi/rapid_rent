@@ -1,0 +1,8 @@
+.footer {
+    background-color: black; /* Same as your navbar's dark background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow like navbar */
+  }
+  .footer a:hover {
+    color: #ffc107; /* Optional: on hover links become golden/yellow */
+  }
+  

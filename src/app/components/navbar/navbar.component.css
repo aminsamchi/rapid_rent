@@ -1,0 +1,99 @@
+.custom-brand:hover {
+    text-decoration: none;
+  }
+  
+  .brand-logo,
+  .brand-text {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-brand:hover .brand-logo {
+    transform: scale(1.1); 
+  }
+  
+  .custom-brand:hover .brand-text {
+    color: #fcb807; 
+  }
+  
+.navbar {
+    background-color: #000000; 
+    padding: 0;
+    height: 85px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .custom-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .brand-logo {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .brand-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-brand i {
+    margin-right: 8px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #fcb807; 
+  }
+  
+  #authButtons .btn,
+  #userInfo .btn {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  #authButtons .btn:hover,
+  #userInfo .btn:hover {
+    background-color: #fcb807;
+    color: #343a40;
+    border-color: #fcb807;
+  }
+  
+  #userInfo #userName {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fcb807; /* Golden underline */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #fcb807; /* Change text color on hover */
+  }
+  
